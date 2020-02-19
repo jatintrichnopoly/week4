@@ -1,0 +1,14 @@
+Êþº¾   3 Q  (com/Nikhila/cleancode/CalculateHouseValue  java/lang/Object  com/Nikhila/cleancode/House materialStandard Ljava/lang/String; totalHouseArea I 	totalCost <init> (Ljava/lang/String;I)V Code
+     ()V	    
+	   	 
+	     LineNumberTable LocalVariableTable this *Lcom/Nikhila/cleancode/CalculateHouseValue; estimateHouseCost ()I  standard materials
+ ! # " java/lang/String $ % compareToIgnoreCase (Ljava/lang/String;)I ' above standard materials ) high standard materials + java/util/Scanner	 - / . java/lang/System 0 1 in Ljava/io/InputStream;
+ * 3  4 (Ljava/io/InputStream;)V	 - 6 7 8 out Ljava/io/PrintStream; : +Do you need a fully automated one
+Yes or No
+ < > = java/io/PrintStream ? @ println (Ljava/lang/String;)V
+ * B C D next ()Ljava/lang/String; F yes
+ ! H I J equalsIgnoreCase (Ljava/lang/String;)Z sc Ljava/util/Scanner; answerForAutomation StackMapTable 
+SourceFile CalculateHouseValue.java !              	 
+      
+            b     *· *µ *µ *+µ ±           	   	                            	 
+             ƒ*´ ¶  š **´ °hµ § f*´ &¶  š **´ Ühµ § K*´ (¶  š ?» *Y² ,· 2L² 59¶ ;+¶ AM,E¶ G™ **´ 	Ähµ § **´ hµ *´ ¬       :           '  3  6  B  M  U  Z  c  r   ~ "         ƒ     M 1 K L  Z $ M   N    ý ; * !ù   O    P

@@ -1,0 +1,9 @@
+Êþº¾   3   com/Nikhila/cleancode/AppTest  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/Nikhila/cleancode/AppTest; shouldAnswerWithTrue RuntimeVisibleAnnotations Lorg/junit/Test;
+    org/junit/Assert   
+assertTrue (Z)V 
+SourceFile AppTest.java !               /     *· ±    
+       
+                            3     ¸ ±    
+   
+                        

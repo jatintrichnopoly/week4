@@ -1,0 +1,23 @@
+Êþº¾   3 x  com/Nikhila/cleancode/ReadInput  java/lang/Object sc Ljava/util/Scanner; <init> ()V Code
+     LineNumberTable LocalVariableTable this  Lcom/Nikhila/cleancode/ReadInput; readInputInterests  java/util/Scanner	    java/lang/System   in Ljava/io/InputStream;
+     (Ljava/io/InputStream;)V	    	     ! out Ljava/io/PrintStream; # Enter the Principle Amount
+ % ' & java/io/PrintStream ( ) println (Ljava/lang/String;)V
+  + , - 
+nextDouble ()D / Enter the Rate Of Interest 1 Enter the Time Period in Years
+  3 4 5 nextInt ()I 7 'com/Nikhila/cleancode/InterestCalculator
+ 6 9  : (DDI)V
+ 6 < = - calculateSimpleInterest
+ 6 ? @ - calculateCompoundInterest B java/lang/StringBuilder D The Simple Interest is 
+ A F  )
+ A H I J append (D)Ljava/lang/StringBuilder;
+ A L M N toString ()Ljava/lang/String; P The Compound Interest is  principleAmount D rateOfInterest 
+timePeriod I 	calculate )Lcom/Nikhila/cleancode/InterestCalculator; simpleInterest compoundInterest readInputHouseValues \ Enter Material Standard ^ ^Any one among these , Standard Materials , Above Standard Materials , High Standard Materials 
+  ` a N nextLine c %Enter total area of the house in sqft e (com/Nikhila/cleancode/CalculateHouseValue
+ d g  h (Ljava/lang/String;I)V
+ d j k 5 estimateHouseCost m )The total estimated construction cost is 
+ A o I p (I)Ljava/lang/StringBuilder; materialStandard Ljava/lang/String; totalHouseArea *Lcom/Nikhila/cleancode/CalculateHouseValue; 	totalCost 
+SourceFile ReadInput.java !                	   /     *· 
+±                        	    	    
+   …» Y² · ³ ² "¶ $² ¶ *G² .¶ $² ¶ *I² 0¶ $² ¶ 26» 6Y&(· 8:¶ ;9¶ >9² » AYC· E¶ G¶ K¶ $² » AYO· E¶ G¶ K¶ $±       6    
+       $  +  3  ;  H  O  V  m  „     >   i Q R   + Z S R  ; J T U  H = V W  O 6 X R  V / Y R  	 Z   	   Å     Y» Y² · ³ ² [¶ $² ]¶ $² ¶ _K² b¶ $² ¶ 2<» dY*· fM,¶ i>² » AYl· E¶ n¶ K¶ $±       * 
+           $ " , # 3 % = & B ' X (    *  $ 5 q r   3 & s U  =  V t  B  u U   v    w
